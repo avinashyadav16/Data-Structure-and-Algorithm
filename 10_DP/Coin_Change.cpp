@@ -1,7 +1,7 @@
 /**
  *  @file: Question_02_Coin_Change.cpp
  *  @author: Avinash Yadav
- *  @brief: Provide the implementation of the problems such as Coin Change
+ *  @brief: Provide the implementation of the problems Coin Change using a DP approach
  *  @date: 12-04-2024
  */
 
@@ -41,6 +41,7 @@ int main()
 {
     vector<int> coins = {1, 5, 6, 9};
     int amount = 11;
+
     cout << "==> Coin Change Problem <==" << endl;
     cout << "Coin Denominations Are: ";
     for (int coin : coins)
@@ -49,6 +50,8 @@ int main()
     }
     cout << endl;
     cout << "Required Amount: " << amount << endl;
+    
+    
     cout << "Minimum number of coins required: " << coinChange(coins, amount) << endl;
 
     return 0;
