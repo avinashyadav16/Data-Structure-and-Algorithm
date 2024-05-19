@@ -42,6 +42,43 @@ void DFS(const vector<vector<int>> &adj, int V, int v)
     DFSUtil(adj, v, visited);
 }
 
+// Function to perform DFS iteratively
+void DFSIterative(int start, unordered_map<int, vector<int>> &adj)
+{
+    // Create a stack for DFS
+    stack<int> s;
+
+    // To keep track of visited vertices
+    unordered_set<int> visited;
+
+    // Push the current source node
+    s.push(start);
+
+    while (!s.empty())
+    {
+        // Pop a vertex from stack and print it
+        int v = s.top();
+        s.pop();
+
+        // If the vertex is not visited, mark it visited and process it
+        if (visited.find(v) == visited.end())
+        {
+            cout << v << " ";
+            visited.insert(v);
+        }
+
+        // Get all adjacent vertices of the popped vertex v
+        // If an adjacent has not been visited, push it to the stack
+        for (int neighbor : adj[v])
+        {
+            if (visited.find(neighbor) == visited.end())
+            {
+                s.push(neighbor);
+            }
+        }
+    }
+}
+
 int main()
 {
     // Number of vertices
