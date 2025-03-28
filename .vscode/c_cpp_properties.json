@@ -12,8 +12,8 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "windowsSdkVersion": "10.0.19041.0",  // Update if you use a different Windows SDK version
-            "compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe",  // Update the path to your compiler
+            "windowsSdkVersion": "10.0.19041.0", 
+            "compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe",
             "cStandard": "c11", 
             "cppStandard": "c++17", 
             "intelliSenseMode": "windows-gcc-x64"
