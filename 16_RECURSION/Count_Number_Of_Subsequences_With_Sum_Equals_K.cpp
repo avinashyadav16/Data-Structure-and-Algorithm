@@ -1,7 +1,7 @@
 /**
  *  @file: Count_Number_Of_Subsequences_With_Sum_Equals_K.cpp
  *  @author: Avinash Yadav
- *  @brief:
+ *  @brief:  https://www.naukri.com/code360/problems/count-subsets-with-sum-k_3952532
  */
 
 #include <bits/stdc++.h>

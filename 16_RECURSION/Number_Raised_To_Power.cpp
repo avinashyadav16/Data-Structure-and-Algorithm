@@ -1,6 +1,12 @@
+/**
+ *  @file: Number_Raised_To_Power.cpp
+ *  @author: Avinash Yadav
+ *  @brief: This program calculates the power of a number using recursion.
+ *  @links: https://leetcode.com/problems/powx-n/description
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
-typedef long long int ll;
 
 // Function to calculate a^b using recursion
 int fun(int a, int b)
