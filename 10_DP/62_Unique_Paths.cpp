@@ -9,7 +9,7 @@
             Given the two integers m and n,
             return the number of possible unique paths that the robot can take to reach the bottom-right corner.
 
-            The test cases are generated so that the answer will be less than or equal to 2 * 109.
+            The test cases are generated so that the answer will be less than or equal to 2 * 10^9.
 
             Example 1:
                 Input: m = 3, n = 7
